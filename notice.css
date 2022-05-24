@@ -1,0 +1,189 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+.mainNoticeBox{
+   position: absolute;
+   top: 5rem;
+   left: 6rem;
+   width: 93%;
+   height: 100%;
+   /* overflow-x: hidden; */
+}
+.noticeSubCommonBox{
+   width: 100%;
+   float: left;
+}
+.firstSubBox{
+   box-shadow: 0px 1px 10px 1px rgb(214, 214, 211);
+   background-color: #171d53ac;
+   width: 35%;
+   height: 100%;
+}
+.secondSubBox{
+   box-shadow: 0px 1px 10px 1px rgb(214, 214, 211);
+   overflow-y: hidden;
+   background-color: rgb(50, 39, 108);
+   width: 62%;
+   height: 100%;
+   margin-left: 2rem;
+}
+.firstSubBox label{
+   color: #ffee00;
+   position: absolute;
+   left: 5%;
+}
+.firstSubBox input{
+   color: #09104f;
+   width: 71%;
+   height: 3rem;
+   margin-left: 3%;
+   border-radius: 7px;
+   border: none;
+}
+.firstSubBox  textarea{
+   color: #09104f;
+   width: 71%;
+   height: 5rem;
+   margin-left: 3%;
+   border-radius: 7px;
+   border: none;
+}
+.firstSubBox button{
+   background-color: #c00c0b;
+   color: #ffee00;
+   margin-left: 50%;
+   margin-top: 5%;
+   border: none;
+   padding: 3px 7px 3px 7px;
+   border-radius: 7px;
+   cursor: pointer;
+}
+/* Search Box start */
+.serchCommon{
+   float: left;
+   width: 44%;
+   margin-left: 3rem;
+}
+.serchCommon input{
+   border-color: red;
+   text-align: center;
+   border-radius: 7px;
+   border: none;
+   background: red;
+   width: 70%;
+   height: 1.7rem;
+   margin-top: 1rem;
+}
+.serchCommon button{
+   position: absolute;
+   cursor: pointer;
+   background-color: #ffee00;
+   color: #09104f;
+   border: none;
+   PADDING: 3px 3px 3px 3px;
+   border: 19px;
+   border-radius: 7px;
+   margin-left: 0.5rem;
+   margin-top: 1rem;
+}
+.firstSerarchBox{
+   
+}
+.secondSerarchBox{
+
+}
+/* Search Box end */
+
+/* respomsive css start */
+@media screen and (max-device-width: 1281px) and (max-width: 1281px) {
+   /* Serch Box responsive start */
+   .mainSearchBox{
+      width: 100%;
+   }
+   .serchCommon{
+      float: left;
+      width: 38%;
+      margin-left: 3rem;
+   }
+   .serchCommon input{
+      width: 90%;
+   }
+   
+   /* Serch Box responsive start */
+}
+
+@media screen and (max-device-width: 920px) and (max-width: 920px) {
+   .mainNoticeBox{
+      width: 87%;
+   }
+   .firstSubBox{
+      width: 100%;
+      height:max-content;
+   }
+   .firstSubBox input{
+      width: 95%;
+   }
+   .firstSubBox textarea{
+      width: 95%;
+   }
+   .secondSubBox{
+      width: 100%;
+      max-height: max-content;
+      margin-left: 0px;
+      margin-top: 1rem;
+   }
+   /* Serch Box responsive start */
+   .mainSearchBox{
+      width: 100%;
+   }
+   .serchCommon{
+      width: 85%;
+   
+   }
+   .serchCommon input{
+      width: 90%;
+      /* margin-left: -3rem; */
+   }
+   
+   /* Serch Box responsive start */
+}
+@media screen and (max-device-width: 420px) and (max-width: 420px) {
+.mainNoticeBox{
+   width: 74%;
+}
+.firstSubBox{
+   width: 100%;
+   height:max-content;
+}
+.firstSubBox input{
+   width: 95%;
+}
+.firstSubBox textarea{
+   width: 95%;
+}
+.secondSubBox{
+   width: 100%;
+   max-height: max-content;
+   margin-left: 0px;
+   margin-top: 1rem;
+}
+/* Serch Box responsive start */
+.mainSearchBox{
+   width: 100%;
+}
+.serchCommon{
+   width: 85%;
+
+}
+.serchCommon input{
+   width: 90%;
+   margin-left: -3rem;
+}
+
+/* Serch Box responsive start */
+}
+
+/* respomsive css end */

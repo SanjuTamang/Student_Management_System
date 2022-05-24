@@ -1,0 +1,183 @@
+* {
+   margin: 0;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+h2{
+   text-align: center;
+   text-transform: uppercase;
+}
+h3{
+   text-align: center;
+   text-transform: uppercase;
+}
+.mainMessage {
+   /* background-color: #4a4f7a; */
+   height: 84%;
+   width: 90%;
+   position: absolute;
+   top: 7rem;
+   /* left: 7rem; */
+   margin-left: 79px;
+}
+.commonSubBox{
+   float: left;
+   margin-top: 1rem;
+
+}
+.firstMessageSubBox{
+   /* background-color: #5a5952; */
+   box-shadow: 0px 2px 15px 2px  rgb(214, 214, 211);
+   width: 65%;
+   height: 90%;
+   margin-left: 1rem;
+}
+.secondMessageSubBox{
+   margin-left: 2rem;
+   width: 30%;
+   height: 91%;
+}
+.commonInsudeSub{
+   height: 48%;
+}
+.firstInsudeSub{
+   box-shadow: 0px 2px 15px 2px  rgb(214, 214, 211);
+   /* background-color: #c00c0b; */
+}
+.secondInsudeSub{
+   box-shadow: 0px 2px 15px 2px  rgb(214, 214, 211);
+   /* background: #ffee00; */
+   margin-top: 1rem;
+}
+label {
+   color: #1b124f;
+   margin-bottom: 1rem;
+   margin-left: 10px;
+   margin-left: 10px;
+   margin-left: 18%;
+   text-transform: uppercase;
+}
+
+input {
+      background-color: #4a4f7a;
+   color: #ffffff;
+   font-size: 17px;
+   width: 52%;
+   height: 6%;
+   margin-left: 10%;
+   border: 5px;
+   border-radius: 7px;
+   border: none;
+   /* background: antiquewhite; */
+}
+
+textarea {
+   background-color: #4a4f7a;
+   color: #ffffff;
+   margin-left: 10%;
+   font-size: 17px;
+   width: 52%;
+   border-radius: 7px;
+   border: none;
+   /* background: antiquewhite; */
+}
+
+button {
+   background: #c00c0b;
+   color: #ffee00;
+   cursor: pointer;
+   margin-top: 1rem;
+   margin-left: 25rem;
+   border: none;
+   border-radius: 7px;
+   padding: 5px 16px 5px 16px;
+}
+@media screen and (max-device-width: 1285px) and (max-width: 1185px) { 
+   .firstMessageSubBox{
+      width: 96%;
+      height: 80%;
+   }
+   .secondMessageSubBox{
+      margin-left: 2rem;
+      width: 30%;
+      height: 91%;
+   }
+   .commonInsudeSub{
+      height: 48%;
+      float: left;
+   }
+   .firstInsudeSub{
+      margin-left: -1rem;
+      width: 319%;
+   }
+   .secondInsudeSub{
+      margin-left: -1rem;
+      width: 319%;
+   }
+   h3{
+   position: absolute;
+   left: 20%;
+   }
+}
+@media screen and (max-device-width: 920px) and (max-width: 920px) { 
+   .firstMessageSubBox{
+      width: 96%;
+      height: 80%;
+   }
+   .secondMessageSubBox{
+      margin-left: 2rem;
+      width: 30%;
+      height: 91%;
+   }
+   .commonInsudeSub{
+      height: 48%;
+      float: left;
+   }
+   .firstInsudeSub{
+      margin-left: -1rem;
+      width: 319%;
+   }
+   .secondInsudeSub{
+      margin-left: -1rem;
+      width: 319%;
+   }
+   h3{
+   position: absolute;
+   left: 20%;
+   }
+}
+@media screen and (max-device-width: 420px) and (max-width: 420px) { 
+   input{
+      width: 86%;
+   }
+   textarea{
+      width: 86%; 
+   }
+   .mainMessage {
+      overflow-x: hidden;
+      width: 79%;
+   }
+   .firstMessageSubBox{
+width: 93%;
+   }
+   .secondMessageSubBox{
+      width: 100%;
+      margin-left: 1rem;
+   }
+   .commonInsudeSub{
+      height: 48%;
+   }
+   .firstInsudeSub{
+      box-shadow: 0px 2px 15px 2px  rgb(214, 214, 211);
+      /* background-color: #c00c0b; */
+   }
+   .secondInsudeSub{
+      box-shadow: 0px 2px 15px 2px  rgb(214, 214, 211);
+      /* background: #ffee00; */
+      margin-top: 1rem;
+   }
+   button {
+      margin-left: 72%;
+   }
+}

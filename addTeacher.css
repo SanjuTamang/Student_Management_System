@@ -1,0 +1,60 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2';
+}
+body{
+   background-color: rgba(29, 31, 71, 0.843);
+   /* background-image: url('../images/logo/android-chrome-512x512.png'); */
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+} 
+.addTMainBox{
+   /* background-color: rgb(29, 31, 71); */
+   width: 100%;
+   height: 100%;
+}
+.addTMainBox img{
+   width: 8%;
+   top: 3.6rem;
+   position: absolute;
+   left: 43rem;
+   height: 16%;
+   border: none;
+   border-radius: 10rem;
+   
+}
+.addTSubBox{
+   position: absolute;
+   text-align: center;
+   top: 23%;
+   left: 23%;
+   width: 56%;
+   background: #c00b0ba1;
+   height: max-content;
+   border-radius: 4rem 4px 4rem 4px;
+
+}
+.addTSubBox input, select, textarea{ 
+   color: #ffbe58;
+   width: 69%;
+   height: 1.5rem;
+   background: transparent;
+   border: none;
+   margin-bottom: 0.5rem;
+}
+.addTSubBox textarea {
+   height: 2rem;
+}
+.addTMainBox button{
+   position: absolute;
+   left: 42rem;
+   top: 36rem;
+   padding: 0rem 2rem 0rem 2rem;
+   font-size: 19px;
+   border-radius: 3px;
+   border: none;
+   background-color: #fab052;
+   cursor: pointer;
+}

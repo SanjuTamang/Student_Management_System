@@ -1,0 +1,176 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+
+h1 {
+   align-items: center;
+
+   text-align: center;
+}
+
+h2 {
+   cursor: pointer;
+   /* align-items: center; */
+   /* text-align: center; */
+   margin-left: 43%;
+   width: fit-content;
+}
+
+h2 a:hover {
+   transition: 2s;
+   color: rgb(255, 255, 255);
+}
+a{
+   text-decoration: none;
+   color:rgb(5, 0, 0);
+}
+.registerMainContainer h4 a {
+   text-align: center;
+}
+.registerMainContainer h4 a:hover {
+color: rgb(36, 45, 100);
+}
+
+button {
+   text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 0.5rem;
+   border-style: none;
+
+   padding: 0rem .8rem;
+}
+.twelveMarksheet{
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.registerSubmit{
+   font-size: medium;
+   font-weight: bold;
+   width: 8%;
+   cursor: pointer;
+   border-radius: 0.5rem;
+   border-style: none;
+
+   padding: 0rem 0.8rem;
+   margin-top: 3rem;
+}
+select{
+    text-transform: uppercase;
+    height: 1.6rem;
+    width: 69%;
+    border-radius: 0.4rem;
+    border-style: none;
+    /* text-align: start!important; */
+    align-items: initial;
+}
+.qulification select{
+
+   width: 45%;
+}
+.optionGroup{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+option{
+
+   height: .4rem;
+}
+.registerMainContainer {
+   color: rgb(0, 0, 0);
+   border-inline: none;
+   /* margin-left: 9%; */
+   text-align: center;
+   font-family: 'Heebo', sans-serif;
+   /* float: left; */
+   height: 100vmax;
+   align-items: center;
+   width: 100%;
+   background-image: url(../images/collegeImageBlur.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.registerLeftBox {
+   font-family: 'Heebo', sans-serif;
+   text-align: center;
+   width: 50%;
+   /* background-color:rgb(11, 32, 68); */
+   text-transform: uppercase;
+}
+
+.registerLeftBox input {
+   text-transform: uppercase;
+   text-align: center;
+   border-style: none;
+   border-radius: 0.4rem;
+   height: 1.8rem;
+   width: 70%;
+   color: rgb(7, 0, 0);
+}
+
+.registerRightBox {
+   text-align: center;
+   width: 50%;
+   text-transform: uppercase;
+}
+.registerRightBox input {
+   text-transform: uppercase;
+   text-align: center;
+   border-style: none;
+   border-radius: 0.4rem;
+   height: 1.8rem;
+   width: 70%;
+   color:rgb(0, 0, 0);
+}
+.registerBox {
+   align-items: center;
+   text-align: center;
+   float: left;
+   margin-top: 2rem;
+   font-size: small;
+}
+form i {
+   /* margin-left: -30px; */
+   cursor: pointer;
+}
+
+@media screen and (max-device-width: 912px) and (max-width: 912px) {
+   .MainContainer {
+      margin: 0;
+      width: 100%;
+      height: fit-content;
+   }
+
+   .signIn {
+      width: 50%;
+   }
+
+   .signUp {
+      width: 50%;
+   }
+
+   .secondContainer {
+      float: left;
+   }
+}
+@media screen and (max-device-width:415px) and (max-width:415px) {
+   .MainContainer {
+      float: left;
+      margin: 0;
+      color: black;
+      width: 100%;
+      height: fit-content;
+   }
+
+   .signIn {
+      width: 100%;
+   }
+   .signUp {
+width: 100%;
+   }
+}

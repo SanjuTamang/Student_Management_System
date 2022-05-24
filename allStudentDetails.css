@@ -1,0 +1,156 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+.sDetails{
+   /* margin-top: 30rem; */
+   position: fixed;
+   top:8rem;
+}
+ /* Search Box start */
+ 
+ .serarchBox{
+   overflow-x: hidden;
+  position: fixed;
+  top: 3.5rem;
+  height: 4rem;
+  width: 95%;
+  margin-left: 4.8rem;
+}
+.serarchBox input{
+  border-color: red;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  width: 18%;
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+  background: red;
+  height: 1.7rem;
+  float: right;
+  position: fixed;
+  right: 7rem;
+}
+.serarchBox i{
+  color: aliceblue;
+  /* margin-top: 17px; */
+  font-size: 22px;
+  font-weight: bolder;
+  margin-left: 17px;
+
+}
+.serarchBox button{
+  position: absolute;
+  cursor: pointer;
+  background-color: #ffee00;
+  color: #09104f;
+  border: none;
+  PADDING: 3px 3px 3px 3px;
+  border: 19px;
+  border-radius: 7px;
+  right: 3rem;
+  top: 1rem;
+
+}
+/* Search Box end */
+table {
+   overflow-x: scroll;
+   width: 80%;
+   border-collapse: collapse;
+   letter-spacing: 2px;
+   font-size: 12px;
+   margin-left: 4.9rem;
+   overflow: scroll;
+}
+tr {
+   /* border: 1px solid rgb(255 206 16); */
+   color: black;
+   /* padding: 10px; */
+   text-align: -moz-left;
+   background: #ffee0063;
+}
+th {
+   width: 20px;
+    /* border: 1px solid rgb(190, 190, 190); */
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr.odd:nth-child(even) {
+  background-color: #ff6b6a87;
+}
+
+tbody tr:nth-child(odd) {
+   color: rgb(255 255 255);
+   background-color: #3f446cbf;
+}
+
+th[scope="col"] {
+   padding: 1rem 3rem 0rem 1rem;
+   background: #26332bdc;
+   color: #ffffff;
+}
+
+/* th[scope="row"] {
+
+} */
+.editButton th i{
+cursor: pointer;
+}
+
+
+@media screen and (max-device-width: 912px) and (max-width: 912px) { 
+   .serarchBox{
+      position: fixed;
+      top: 3.5rem;
+      height: 4rem;
+      /* background-color: #4f4d63; */
+      width: 95%;
+      margin-left: 4.8rem;
+   }
+   .serarchBox input{
+      width: 25%;
+      right: 4rem;
+   }
+   .serarchBox i{
+      color: aliceblue;
+      /* margin-top: 17px; */
+      font-size: 22px;
+      font-weight: bolder;
+      margin-left: 17px;
+    
+   }
+   .serarchBox button{
+      position: absolute;
+      cursor: pointer;
+      background-color: #ffee00;
+      color: #09104f;
+      border: none;
+      PADDING: 3px 3px 3px 3px;
+      border: 19px;
+      border-radius: 7px;
+      right: 3rem;
+      top: 1rem;
+    
+   }
+   /* Search Box end */
+}
+@media screen and (max-device-width: 420px) and (max-width: 420px) {
+   .serarchBox{
+      position: fixed;
+      top: 3.5rem;
+      height: 4rem;
+      /* background-color: #4f4d63; */
+      width: 81%;
+      margin-left: 6.8rem;
+   }
+   .serarchBox input{
+      width: 36%;
+      right: 3.5rem;
+   }
+}

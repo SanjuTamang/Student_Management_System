@@ -1,0 +1,236 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+p{
+   text-align: center;
+}
+h4{
+   text-align: center;
+}
+a{
+   text-decoration: none;
+   color: tomato;
+}
+th{
+   text-align: start;
+}
+.firstSubBox{
+   /* overflow-x: hidden; */
+   position: absolute;
+   top: 3rem;
+   width: 100%;
+}
+.firstCommon
+{
+   margin-top:4rem ;
+   height: 35rem;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 2px 15px 2px  rgb(214, 214, 211);
+   float: left;
+   margin-left: 1rem;
+}
+.firtstInside{
+   /* background: rebeccapurple; */
+   margin-left: 6rem;
+   width: 30%;
+}
+/*sub Box of first box  start*/
+.firstFirstCommon p{
+
+}
+.firstFirstCommon{
+   box-shadow: 0px 1px 10px 1px rgb(214, 214, 211);
+   height:45%;
+   float: left;
+   margin:1rem;
+}
+.firstInsideFirst{
+   margin-left: 2rem;
+   background-color: aquamarine;
+   width: 40%;
+}
+/* .firstInsideFirst,.firstInsideSecond, p{
+   position: absolute;
+   top: 43%;
+}
+.firstInsideThird,.firstInsideForth p{
+   position: absolute;
+   top: 86%; 
+} */
+.firstInsideSecond{
+      background-color: rgb(7, 35, 26);
+   width: 40%;
+}
+.firstInsideThird{
+   margin-left: 2rem;
+      background-color: rgb(159, 152, 175);
+   width: 40%;
+}
+.firstInsideForth{
+      background-color: rgb(72, 93, 22);
+   width: 40%;
+}
+/*sub Box of first box  end*/
+.secondInside{
+   width: 30%;
+}
+.thirdInside{
+   width: 30%;
+}
+.secondSubBox{
+   overflow-x: hidden;
+   margin-top: 3rem;
+}
+.secondSubBox table{
+   overflow-x: hidden;
+   width: 95%;
+   margin-left: 6rem;
+}
+
+@media screen and (max-device-width: 1124px) and (max-width: 1124px) { 
+   .firstSubBox{
+      width: 83%;
+   }
+   .firstCommon
+   {
+      margin-top: 5rem;
+      height: 40rem;
+      float: left;
+      margin-left: 9rem;
+   }
+   .firtstInside{
+      /* margin-left: 6rem; */
+      width: 100%;
+   }
+   /*sub Box of first box  start*/
+.firstFirstCommon{
+   box-shadow: 0px 1px 10px 1px rgb(214, 214, 211);
+   height:45%;
+   float: left;
+   margin:1rem;
+}
+.firstInsideFirst{
+   margin-left: 2rem;
+   width: 40%;
+}
+.firstInsideSecond{
+   
+      background-color: rgb(7, 35, 26);
+   width: 40%;
+}
+.firstInsideThird{
+   margin-left: 2rem;
+      background-color: rgb(159, 152, 175);
+   width: 40%;
+}
+.firstInsideForth{
+      background-color: rgb(72, 93, 22);
+   width: 40%;
+}
+/*sub Box of first box  end*/
+   .secondInside{
+      width: 100%;
+   }
+   .thirdInside{
+      width: 100%;
+   }
+}
+
+@media screen and (max-device-width: 920px) and (max-width: 920px) { 
+   .firstSubBox{
+      width: 84%;
+   }
+   .firstCommon
+   {
+      margin-top: 5rem;
+      height: 40rem;
+      float: left;
+      margin-left: 9rem;
+   }
+   .firtstInside{
+      /* margin-left: 6rem; */
+      width: 100%;
+   }
+   /*sub Box of first box  start*/
+.firstFirstCommon{
+   box-shadow: 0px 1px 10px 1px rgb(214, 214, 211);
+   height:45%;
+   float: left;
+   margin:1rem;
+}
+.firstInsideFirst{
+   margin-left: 2rem;
+   width: 44%;
+}
+.firstInsideSecond{
+   
+      background-color: rgb(7, 35, 26);
+   width: 44%;
+}
+.firstInsideThird{
+   margin-left: 2rem;
+      background-color: rgb(159, 152, 175);
+      width: 44%;
+}
+.firstInsideForth{
+   width: 44%;
+}
+/*sub Box of first box  end*/
+   .secondInside{
+      width: 100%;
+   }
+   .thirdInside{
+      width: 100%;
+   }
+}
+@media screen and (max-device-width: 420px) and (max-width: 420px) { 
+   .firstSubBox{
+      width: 73%;
+   }
+   .firstCommon
+   {
+      margin-top:4rem ;
+      height: 40rem;
+      float: left;
+      margin-left: 7rem;
+   }
+   .firtstInside{
+      /* margin-left: 6rem; */
+      width: 100%;
+   }
+   /*sub Box of first box  start*/
+.firstFirstCommon{
+   box-shadow: 0px 1px 10px 1px rgb(214, 214, 211);
+   height:45%;
+   float: left;
+   margin:1rem;
+}
+.firstInsideFirst{
+   margin-left: 2rem;
+   width: 35%;
+}
+.firstInsideSecond{
+   
+      background-color: rgb(7, 35, 26);
+   width: 35%;
+}
+.firstInsideThird{
+   margin-left: 2rem;
+      background-color: rgb(159, 152, 175);
+   width: 35%;
+}
+.firstInsideForth{
+      background-color: rgb(72, 93, 22);
+   width: 35%;
+}
+/*sub Box of first box  end*/
+   .secondInside{
+      width: 100%;
+   }
+   .thirdInside{
+      width: 100%;
+   }
+}

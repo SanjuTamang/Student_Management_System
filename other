@@ -1,0 +1,202 @@
+        <th scope="row">
+
+            <!-- <?php $sql = "SELECT uid FROM registration"; -->
+            // $result = mysqli_query($conn, $sql);
+
+            // while($row = mysqli_fetch_assoc($result)) {
+                // echo '<input type="checkbox" name="" id="">' ."<br>"; 
+            // }
+            // ?>
+        </th>
+        <th scope="row">
+
+            <?php $sql = "SELECT uid FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["uid"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <th scope="row">Photo</th>
+        <th scope="row">        <?php $sql = "SELECT studentname FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["studentname"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <th scope="row">        <?php $sql = "SELECT uid FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["uid"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <th scope="row">        <?php $sql = "SELECT uid FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["uid"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <th scope="row">        <?php $sql = "SELECT uid FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["uid"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <th scope="row"><?php $sql = "SELECT uid FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["uid"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <th scope="row">        <?php $sql = "SELECT fathername FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["fathername"]. "<br>"; 
+            }
+            ?>
+        </th>
+        <!-- <th scope="row">        <?php $sql = "SELECT studentmobile FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["studentmobile"]. "<br>"; 
+            }
+            ?>
+        </th> -->
+        <th scope="row">        <?php $sql = "SELECT studentmobile FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["studentmobile"]. "<br>"; 
+            }
+            ?>
+       </th>
+        <th scope="row">        <?php $sql = "SELECT youremail FROM registration";
+            $result = mysqli_query($conn, $sql);
+
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "". $row["youremail"]. "<br>"; 
+            }
+            ?>
+       </th>
+
+       // $studentname =          $_POST['studentname'];
+// $nickname =             $_POST['nickname'];
+// $fathername =           $_POST['fathername'];
+// $mothername =           $_POST['mothername'];
+// $studentmobile =        $_POST['studentmobile'];
+// $parentsmobile =        $_POST['parentsmobile'];
+// $youremail =            $_POST['youremail'];
+// $parentsemail =         $_POST['parentsemail'];
+// $aadharno =             $_POST['aadharno'];
+// $parentsaadharno =      $_POST['parentsaadharno'];
+// $temaddress =          $_POST['temaddress'];
+// $paraddress =          $_POST['paraddress'];
+// $tenthboardname =      $_POST['tenthboardname'];
+// $twelvethboardname =   $_POST['twelvethboardname'];
+// $tenthmarks =          $_POST['tenthmarks'];
+// $twelvemarks =         $_POST['twelvemarks'];
+// $qulification=          $_POST['qulification'];
+// $admissioncourse=       $_POST['admissioncourse'];
+// 
+// if($studentname !="" && $nickname!="" && $fathername!="" && $mothername!="" && $studentmobile!="" && $parentsmobile!="" && $youremail!="" && $parentsemail!="" && $aadharno!="" && $parentsaadharno!="" && $temaddress!="" && $paraddress!="" && $tenthboardname!="" && $twelvethboardname!="" && $tenthmarks!="" && $twelvemarks!="" && $qulification!="" && $admissioncourse!=""){
+
+
+// $query = "UPDATE registration SET studentname='$studentname',nickname='$nickname',fathername='$fathername', mothername='$mothername', studentmobile='$studentmobile', parentsmobile='$parentsmobile', youremail='$youremail,',parentsemail='$parentsemail',aadharno='$aadharno', parentsaadharno='$parentsaadharno',temaddress='$temaddress',paraddress='$paraddress', tenthboardname='$tenthboardname',twelvethboardname='$twelvethboardname',tenthmarks='$tenthmarks',twelvemarks='$twelvemarks',qulification='$qulification',admissioncourse='$admissioncourse'";
+
+
+// --  VALUES('$studentname','$nickname','$fathername','$mothername','$studentmobile','$parentsmobile','$youremail','$parentsemail','$aadharno','$parentsaadharno','$temaddress','$paraddress','$tenthboardname','$twelvethboardname','$tenthmarks','$twelvemarks','$qulification','$admissioncourse')");
+
+<?php 
+ echo "<title>Admin Panel | full access </title>";
+ include 'allhead.php';
+ include 'navbar.php';
+ ?>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+   <div class="mainBox">
+      <div class="firstSubbox">
+         <div class="SubBox">
+         <i style='font-size:50px' class='fas'>&#xf501;</i>
+         <h2>Student</h2>
+          <h3>hello
+             
+     
+         // $result = mysqli_query($conn,"SELECT COUNT(*) AS count FROM registration");
+         // $row = mysqli_fetch_assoc($result);
+         // $count = $row['count'];
+         // echo "$count";
+         </h3>
+         </div>
+         <div class="SubBox">
+            <i class='fas fa-chalkboard-teacher' style='font-size:48px;'></i>
+            <h2>Teacher</h2>
+            <h3><?php 
+         $result = mysqli_query($conn,"SELECT COUNT(*) AS count FROM teachers");
+         $row = mysqli_fetch_assoc($result);
+         $count = $row['count'];
+         echo "$count";
+         ?></h3>
+         </div>
+         <div class="SubBox">
+         <i class='fas fa-user-check' style='font-size:48px'></i>
+            <h2>Parents</h2>
+            <h3><?php 
+         $result = mysqli_query($conn,"SELECT COUNT(*) AS count FROM parents");
+         $row = mysqli_fetch_assoc($result);
+         $count = $row['count'];
+         echo "$count";
+         ?></h3>
+         </div>
+         <div class="SubBox">
+         <i style='font-size:48px' class='fas'>&#xf156;</i>
+            <h2>Earning</h2>
+            <h3>567845</h3>
+         </div>
+
+      </div>
+      <div class="secondMainBox">
+         <div class="secondFirst secondSubBox">
+            <p>hi Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eum sed totam inventore, sit distinctio est numquam, dolorem molestiae id nostrum nam aliquid eos vitae sapiente ad laborum nobis sequi?</p>
+         </div>
+         <div class="secondSecond secondSubBox">
+         <p>hi</p>
+         </div>
+         <div class="SecondThird secondSubBox">
+         <p>hi</p>
+         </div>
+      </div>
+      <div class="thirdMainBox">
+         <div class="thirdFirst thirdSubBox">
+            <p>hi Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eum sed totam inventore, sit distinctio est numquam, dolorem molestiae id nostrum nam aliquid eos vitae sapiente ad laborum nobis sequi?</p>
+         </div>
+         <div class="thirdSecond thirdSubBox">
+         <p>hi</p>
+         </div>
+         <div class="thirdThird thirdSubBox">
+         <p>hi</p>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

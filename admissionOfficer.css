@@ -1,0 +1,97 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+ }
+ body{
+    background-image: url(../images/collegeImageBlur.gif);
+    background: #5041bf98;
+    background-position: center;
+    background-size:auto;
+ }
+
+ .logonMainContainer{
+    width: 100px;
+    height:100%;
+    overflow-x: hidden;
+ }
+ .loginBox{
+     position: absolute;
+     top: 8rem;
+     justify-content: center;
+     left: 37rem;
+ }
+ .loginBox h1{
+
+ }
+
+ .loginBox a{
+    position:absolute;
+    top: 7rem;
+    left: 5rem;
+    text-decoration: none;
+    color: whitesmoke;
+ }
+ .loginBox input{
+    width: 18rem;
+    text-align: center;
+    font-size: medium;
+    background: #c00b0bc9;
+    color: #ffc558;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 11px;
+ }
+ .loginBox button{
+    position:absolute;
+    top: 5rem;
+    left: 6rem;
+    padding: 0px 26px 0px 26px;
+    background: #09104f;
+    color: #ffc558;
+    border: none;
+ 
+    padding: 0rem 2rem 0rem 2rem;
+    border-radius: 5px
+ }
+ /* Responsive start */
+ 
+ @media screen and (max-device-width:1281px) and (max-width:1281px) { 
+    .loginBox{
+       top: 6rem;
+       left: 23rem;
+    }
+ }
+ @media screen and (max-device-width:912px) and (max-width:912px) { 
+   .loginBox{
+    top: 22rem;
+    left: 18rem;
+    width: 20rem;
+    }  
+ }
+ @media screen and (max-device-width:415px) and (max-width:415px) { 
+    /* body{
+       background-image: url(../images/collegeImageBlur.gif);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size:auto;
+    } */
+   .loginBox{
+    top: 15rem;
+    left: 2rem;
+    width: 20rem;
+ 
+ }
+    .loginBox a{
+       position: absolute;
+       top: 6.4rem;
+       left: 27%;
+    }
+    .loginBox input{
+       width: 19rem;
+       margin-bottom: 7px;
+    }
+ 
+ }
+ /* Responsive end */

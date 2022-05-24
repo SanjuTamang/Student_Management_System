@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+ }
+ /* Search Box start */
+ 
+ .serarchBox{
+    position: fixed;
+    top: 3.5rem;
+    height: 4rem;
+    /* background-color: #4f4d63; */
+    width: 95%;
+    margin-left: 4.8rem;
+ }
+ .serarchBox input{
+    border-color: red;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    width: 18%;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    background: red;
+    height: 1.7rem;
+    float: right;
+    position: fixed;
+    right: 7rem;
+ }
+ .serarchBox i{
+    color: aliceblue;
+    /* margin-top: 17px; */
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 17px;
+  
+ }
+ .serarchBox button{
+    position: absolute;
+    cursor: pointer;
+    background-color: #ffee00;
+    color: #09104f;
+    border: none;
+    PADDING: 3px 3px 3px 3px;
+    border: 19px;
+    border-radius: 7px;
+    right: 3rem;
+    top: 1rem;
+  
+ }
+ /* Search Box end */
+ .aboutStudentContainer {
+    background-color: #e8f2eea3;
+    position: fixed;
+    top: 7.5rem;
+    left: 5.1rem;
+    height: 38rem;
+    /* background-color: rgb(60, 61, 63); */
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+ .aboutStudentContainer i{
+   position: absolute;
+   top: 2rem;
+   right: 9rem;
+}
+ .subSudentContainer {
+    float: left;
+ }
+ 
+ .first {
+    overflow-x: hidden;
+    height: 90%;
+    width: 45%;
+    /* background-color: blueviolet; */
+ }
+ .first h3{
+   position: absolute;
+   top: 27rem;
+   left: 10rem;
+ }
+ .sudentImage{
+    float: inline-start;
+ }
+ .secondBox{
+    float: unset;
+    position: fixed;
+    bottom: 1rem;
+    left: 9rem;
+ }
+ .sudentImage img{
+    position: fixed;
+    top: 14rem;
+    left: 15rem;
+    width: 20%;
+    height: 41%;
+ }
+ 
+ .second {
+   height: max-content;
+   width: 45%;
+   /* background-color: rgb(37, 69, 155); */
+   position: absolute;
+   top: 7rem;
+   left: 45rem;
+ }
+ /* Responsive start */
+
+ 
+ @media screen and (max-device-width: 912px) and (max-width: 912px) { 
+   .serarchBox{
+      position: fixed;
+      top: 3.5rem;
+      height: 4rem;
+      /* background-color: #4f4d63; */
+      width: 95%;
+      margin-left: 4.8rem;
+   }
+   .serarchBox input{
+      width: 25%;
+      right: 4rem;
+   }
+   .serarchBox i{
+      color: aliceblue;
+      /* margin-top: 17px; */
+      font-size: 22px;
+      font-weight: bolder;
+      margin-left: 17px;
+    
+   }
+   .serarchBox button{
+      position: absolute;
+      cursor: pointer;
+      background-color: #ffee00;
+      color: #09104f;
+      border: none;
+      PADDING: 3px 3px 3px 3px;
+      border: 19px;
+      border-radius: 7px;
+      right: 3rem;
+      top: 1rem;
+    
+   }
+   /* Search Box end */
+   .aboutStudentContainer {
+      background-color: #e8f2eea3;
+      position: fixed;
+      top: 7.5rem;
+      left: 5.1rem;
+      height: 38rem;
+      /* background-color: rgb(60, 61, 63); */
+      width: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+   .aboutStudentContainer i{
+     position: absolute;
+     top: 2rem;
+     right: 9rem;
+  }
+   .subSudentContainer {
+      float: left;
+   }
+   
+   .first {
+      overflow-x: hidden;
+      height: min-content;
+      width: 42%;
+      /* background-color: blueviolet; */
+   }
+   .first h3{
+      position: absolute;
+      top: 12rem;
+      left: 3rem;
+   }
+   .sudentImage{
+      float: inline-start;
+   }
+   .secondBox{
+      float: unset;
+      position: fixed;
+      bottom: 1rem;
+      left: 9rem;
+   }
+   .sudentImage img{
+      position: absolute;
+      top: 2rem;
+      left: 3rem;
+      width: 16%;
+      height: 22%;
+   }
+   
+   .second {
+      position: absolute;
+      top: 1rem;
+      left: 20rem;
+   }
+   }
+
+@media screen and (max-device-width: 420px) and (max-width: 420px) {
+   .serarchBox{
+      position: fixed;
+      top: 3.5rem;
+      height: 4rem;
+      /* background-color: #4f4d63; */
+      width: 81%;
+      margin-left: 6.8rem;
+   }
+   .serarchBox input{
+      width: 36%;
+      right: 3.5rem;
+   }
+   .aboutStudentContainer {
+      position: absolute;
+      top: 7.5rem;
+      left: 4.9rem;
+      height: 38rem;
+      width: 78%;
+  }
+   .aboutStudentContainer i{
+      right: 1rem;
+      top: 0.5rem;
+  }
+   .first {
+      overflow-x: hidden;
+      height:min-content;
+      width: 100%;
+      /* background-color: blueviolet; */
+   }
+   .first h3{
+      top: 9rem;
+      font-size: 11px;
+      left: 3rem;
+      position: absolute;
+   }
+   .sudentImage{
+      float: inline-start;
+   }
+   .secondBox{
+      float: unset;
+      position: fixed;
+      bottom: 1rem;
+      left: 9rem;
+   }
+   .sudentImage img{
+      position: absolute;
+      top: 1rem;
+      left: 2rem;
+      width: 29%;
+      height: 19%;
+   }
+   
+   .second {
+      height: 90%;
+      width: 101%;
+      position: absolute;
+      top: 15rem;
+      overflow-x: hidden;
+      left: 0rem;
+      /* background-color: rgb(37, 69, 155); */
+   }
+   .second h3{
+      top: 3rem;
+      font-size: 11px;
+      left: 3rem;
+      position: absolute;
+   }
+   
+}
+ /* Responsive end */
+ 

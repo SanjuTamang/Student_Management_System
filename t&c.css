@@ -1,0 +1,13 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+.termMainContainer{
+   position: absolute;
+   top: 3rem;
+   left: 3rem;
+   width: 80%;
+   text-align: center;
+}

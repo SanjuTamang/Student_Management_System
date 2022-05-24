@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php
-    include 'allhead.php';
-?>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="navbar.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <!-- <link rel="stylesheet" href="./css/admin.css">
+   <link rel="stylesheet" href="./css/index.css">
+   <link rel="stylesheet" href="./css/navbar.css">
+   <link rel="stylesheet" href="./css/allStudentDetails.css">
+   <link rel="stylesheet" href="./css/studentDetails.css"> -->
+</head>
 <body>
-<div class="mainHeader">
+   <!-- <div class="mainHeader">
       <div class="mainSubHeader leftSub">
-        <!-- <a href="http://"><img src="./images/logo/android-chrome-192x192.png" alt=""></a> -->
+        <a href="http://">Chandigarh University</a>
       </div>
       <div class="mainSubHeader rightSub">
        <span class="link_name">usename</span>
          <div class="headerIcon">
-         <i class='far fa-bell' style='color:white'></i>
-       <i class='fas fa-universal-access' style='color:white'></i>
+         <i class='fas fa-universal-access' style='font-size:36px'></i>
+       <i class='fas fa-bullhorn' style='font-size:36px'></i>
+       <i class='fas fa-universal-access' style='font-size:36px'></i>
          </div>
 
       </div>
-   </div>
+   </div> -->
    <div class="heading">
      <h2></h2>
      <div class="subHeading">
 
      </div>
    </div>
-   <!DOCTYPE html>
-<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
-    <link rel="stylesheet" href="style.css">
-    <!-- Boxiocns CDN Link -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
   <div class="sidebar close">
     <div class="logo-details">
-      <a href="./home.php"><img src="./images/logo/favicon-32x32.png" alt="logo"></a>
-      <span class="logo_name">NUBH</span>
+      <i class='fas fa-universal-access' style='font-size:36px'></i>
+      <span class="logo_name">CUIMS</span>
     </div>
     <ul class="nav-links">
-    <li>
+      <!-- <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Category</a></li>
+        </ul>
+      </li> -->
+      <li>
+        <div class="iocn-link">
+      <li>
         <div class="iocn-link">
           <a href="#">
           <i class='fas fa-stream'></i> <span class="link_name">Dashboard</span>
@@ -55,14 +65,13 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Dashboard</a></li>
-          <li><a href="./admin.php">Admin</a></li>
-          <li><a href="./studentIndex.php">Students</a></li>
-          <li><a href="./teacherIndex.php">Teachers</a></li>
+          <li><a href="../admin//index.php">Admin</a></li>
+          <li><a href="#">Students</a></li>
+          <li><a href="#">Teachers</a></li>
           <li><a href="#">Parents</a></li>
 
         </ul>
       </li>
-
       <li>
         <div class="iocn-link">
           <a href="#">
@@ -72,10 +81,10 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">student</a></li>
-          <li><a href="./allStudentDetails.php">All student</a></li>
-          <li><a href="../admin/studentDetails.php">Student Details</a></li>
+          <li><a href="#">All student</a></li>
+          <li><a href="../admin/studentDetails.php">student details</a></li>
           <li><a href="#">Student Promotion</a></li>
-          <li><a href="admission.php">Admission Form</a></li>
+          <li><a href="#">admission Form</a></li>
         </ul>
       </li>
       <li>
@@ -89,9 +98,9 @@
         <ul class="sub-menu">
           <li><a class="link_name" href="#">teacher</a></li>
           <li><a href="#">All Teachers</a></li>
-          <li><a href="./teacherDetails.php">Teacher Details</a></li>
+          <li><a href="#">Teacher Details</a></li>
           <li><a href="#">Tacher Payment</a></li>
-          <li><a href="./addTeacher.php">Add Teacher</a></li>
+          <li><a href="#">add Teacher</a></li>
         </ul>
       </li>
       <li>
@@ -113,7 +122,7 @@
       <li>
         <div class="iocn-link">
           <a href="#">
-          <i  class='fas'>&#xf555;</i>
+            <i class='fas fa-money-bill'></i>
             <span class="link_name">Account</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
@@ -150,7 +159,7 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">exam</a></li>
-          <li><a href="./exam.php">Exam schedule</a></li>
+          <li><a href="#">Exam schedule</a></li>
           <li><a href="#">Exam grades</a></li>
         </ul>
       </li>
@@ -182,28 +191,83 @@
         </ul>
       </li>
       <li>
-        <a href="./notice.php">
+        <a href="#">
           <i class='fas fa-mail-bulk'></i>
           <span class="link_name">Notice</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="./notice.php">Notice</a></li>
+          <li><a class="link_name" href="#">Notice</a></li>
         </ul>
       </li>
       <li>
-        <a href="./message.php">
+        <a href="#">
           <i class='far fa-comment-dots'></i>
           <span class="link_name">Messeage</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="./message.php">Messeage</a></li>
+          <li><a class="link_name" href="#">Messeage</a></li>
         </ul>
       </li>
+      <!-- <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-plug' ></i>
+            <span class="link_name">Plugins</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Plugins</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li> -->
+      <!-- <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li> -->
+      <!-- <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li> -->
+      <!-- <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li> -->
+    <!-- <div class="profile-details">
+      <div class="profile-content">
+        <!--<img src="image/profile.jpg" alt="profileImg">-->
+      <!-- </div> -->
+      <!-- <div class="name-job"> -->
+        <!-- <div class="profile_name">Prem Shahi</div> -->
+        <!-- <div class="job">Web Desginer</div> -->
+      <!-- </div> -->
+      <!-- <i class='bx bx-log-out' ></i> -->
+    <!-- </div> --> 
+  </li>
 </ul>
   </div>
   <section class="home-section">
     <div class="home-content">
       <i class='bx bx-menu' ></i>
+      <span class="text"></span>
     </div>
   </section>
   <script>

@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.loginMainContainer{
+   overflow-x: hidden;
+   width: 100%;
+   /* height: max-content; */
+   position: absolute;
+   height: -webkit-fill-available;
+   /* top: 37%; */
+   /* left: 41%; */
+   background-image: url(../images/collegeImageBlur.gif);
+   background-position: center;
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+} 
+
+.loginBox{
+   position: absolute;
+   top: 18rem;
+   left: 39rem;
+
+}
+.loginBox input{
+   width: 18rem;
+   text-align: center;
+   font-size: medium;
+}
+.loginBox button{
+   position: absolute;
+   left: 6rem;
+   padding: 0px 26px 0px 26px;
+} 
+.forgot a{
+   position: fixed;
+   top: 56%;
+   left: 46%;
+   text-decoration: none;
+   color: rgb(10, 3, 3);
+}
+.uidInput{
+   margin-bottom: 23px;
+}
+.passwordInput{
+   margin-bottom: 21px;
+}
+/* #uidError,#passwordError{
+text-align: center;
+color: rgb(87, 11, 11);
+margin-top: 5px;
+display: none;
+} */
+/* responsive css start */
+
+
+@media screen and (max-device-width: 420px) and (max-width: 420px) {
+   .logonMainContainer{
+      left: 0;
+      background: aqua;
+      position: absolute;
+      top: 0;
+      overflow-x: hidden;
+   }
+   .loginBox{
+      position: absolute;
+      width: 100%;
+      top: 15rem;
+      height: max-content;
+      left: 2rem;
+   }
+   .uidInput{
+
+   }
+   .passwordInput{
+
+   }
+   .loginBox button{
+      position: absolute;
+      left: 6rem;
+   }
+   .forgot a{
+      position: absolute;
+      top: 9rem;
+      left: 5rem;
+   }
+}
+@media screen and(max-device-width: 912px) and (max-width: 912px) {
+   .logonMainContainer{
+      left: 0;
+      background: aqua;
+      position: absolute;
+      top: 0;
+      overflow-x: hidden;
+   }
+   .loginBox{
+      position: absolute;
+      width: 100%;
+      top: 15rem;
+      height: max-content;
+      left: 2rem;
+   }
+   .uidInput{
+
+   }
+   .passwordInput{
+
+   }
+   .loginBox button{
+      position: absolute;
+      left: 6rem;
+   }
+   .forgot a{
+      position: absolute;
+      top: 9rem;
+      left: 5rem;
+   }
+
+}
+/* responsive css end */

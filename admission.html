@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+   <form method="post" method="POST" name="registerform"    action="registration_action.php">
+      <div class="registerMainContainer">
+         <h1>Chandigarh University</h1>
+         <h4>Admission process and condition <a href="./client//Components//knowMoreadmission.php">know more</a></h4>
+         <div class="registerLeftBox registerBox" method="post">
+                  <div class="formGroup">
+                     <label for="studentname"></label>
+                     <input type="text" placeholder="Your name" name="studentname" id="studentname"><br>
+                  </div>
+               <div class="formGroup">
+                  <label for="fathername"></label><br>
+                  <input type="text" placeholder="father name" name="fathername" id="fathername"><br>
+               </div>
+               <div class="formGroup">
+                  <label for="studentmobile"></label><br>
+                  <input type="text" placeholder="Your mobile no." name="studentmobile" id="studentmobile"><br>
+               </div>
+               <div class="formGroup">
+                  <label for="youremail"></label><br>
+                  <input type="email" placeholder="Your email id" name="youremail" id="youremail"><br><br>
+               </div>
+               <div class="formGroup">
+               <label for="aadharno"></label>
+                  <input type="text" placeholder="your aadhar no"  name="aadharno" id="aadharno"><br><br>
+               </div>
+               <div class="formGroup">
+                  <label for="tenthboardname"></label>
+                  <input type="text" placeholder="10th board name" name="tenthboardname" id="tenthboardname"><br>
+               </div>
+               <div class="formGroup">
+                  <label for="tenthmarks"></label><br>
+                  <input type="text" placeholder="10th percentage/cgpa" name="tenthmarks" id="tenthmarks"><br><br>
+               </div>
+         </div>
+         <div class="registerRightBox registerBox">
+            <div class="formGroup">
+               <label for="nickname"></label>
+               <input type="text" placeholder="Your nick name(optional)" name="nickname" id="nickname " ><br>
+            </div>
+            <div class="formGroup">
+               <label for="mothername"></label><br>
+               <input type="text" placeholder="mother name" name="mothername" id="mothername"  ><br>
+            </div>
+            <div class="formGroup">
+               <label for="parentsmobile"></label><br>
+               <input type="text" placeholder="parents mobile no."  name="parentsmobile" id="parentsmobile" ><br>
+            </div>
+            <div class="formGroup">
+               <label for="parentsemail" ></label><br>
+               <input type="email" placeholder="parents Email id" name="parentsemail" id="parentsemail" ><br><br>
+            </div>
+            <div class="formGroup">
+               <label for="parentsaadharno"></label>
+               <input type="text" placeholder="parents aadhar no"name="parentsaadharno" id="parentsaadharno"   ><br><br>
+            </div>
+
+            <div class="formGroup">
+               <label for="twelvethboardname"></label>
+               <input type="text" placeholder="12th board name" name="twelvethboardname" id="twelvethboardname" ><br>
+            </div>
+            <div class="formGroup">
+               <label for="twelvemarks"></label><br>
+               <input type="text" placeholder="12th percentage/cgpa" name="twelvemarks" id="twelvemarks" ><br><br>
+            </div>
+            <div class="formGroup">
+               <label for="twelvecertificate">upload 12th marksheet/certificate</label><br>
+               <input type="file" aria-placeholder="upload" class="twelveMarksheet" name="twelvecertificate" id="twelvecertificate"  ><br><br>
+            </div>
+            <div class="formGroup">
+               <label for="admissioncourse"></label>
+               <select id="admissioncourse" name="admissioncourse" >
+                  <option value="12nonMedical">choose Admission Course</option>
+                  <optgroup label="computer" class="optionGroup">
+                     <option value="Bca">Bachlore of computer application</option>
+                     <option value="Mca">Master of Compuet application</option>
+                     <option value="Bsc">Bachlore of computer science</option>
+                     <option value="btech">B. tech</option>
+                  </optgroup>
+               </select>
+            </div>
+         </div>
+         <button type="submit" name="registered" class="registerSubmit">submit</button><br><br>
+
+      </div>
+</form>
+</body>
+</html>

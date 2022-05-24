@@ -1,0 +1,94 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+/* First Main Box CSS */
+.row{
+   width: 100%;
+}
+.column {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px; /* Should be removed. Only for demonstration */
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+
+/* First Main Box CSS */
+.firstSubBox{
+display: flex;
+width: 100%;
+position:absolute;
+left: 8rem;
+}
+.inSubBox{
+   width: 25%;
+}
+.firstinSubBox{
+   background-color: aqua;
+}
+.secondinSubBox{
+   background-color: rgb(31, 14, 77);
+   
+}
+.thirdinSubBox{
+   background-color: rgb(90, 26, 87);
+   
+}
+.fourthinSubBox{
+   background-color: rgb(105, 148, 24);
+   
+}
+/* Second Main Box CSS */
+
+/* Second Main Box CSS */
+/* third  Box CSS  start*/
+
+/* third  Box CSS end */
+
+/* Resposive css start */
+@media screen and(max-device-width: 912px) and (max-width: 912px) {
+
+
+ }
+
+@media screen and (max-device-width: 420px) and (max-width: 420px) {
+   .firstSubBox{
+      display: flex;
+      width: 100%;
+      position: absolute;
+      left: 3rem;
+      }
+      .f1{
+         flex-direction: column;
+      }
+      .inSubBox{
+         width: 50%;
+      }
+      .firstinSubBox{
+         background-color: aqua;
+      }
+      .secondinSubBox{
+         background-color: rgb(31, 14, 77);
+         
+      }
+      .thirdinSubBox{
+         background-color: rgb(90, 26, 87);
+         
+      }
+      .fourthinSubBox{
+         background-color: rgb(105, 148, 24);
+         
+      }
+ }
+
+/* Resposive css end */

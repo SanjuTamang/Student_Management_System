@@ -1,0 +1,13 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+.rightIcon{
+   font-size: 24px;
+   margin-left: 14px;
+}
+.pic img{
+   width: 30px;
+   height: 30px;
+}
